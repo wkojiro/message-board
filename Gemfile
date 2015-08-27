@@ -10,6 +10,11 @@ gem 'pg', group: :production
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+#以下を追加（20150827　http://qiita.com/masamitsu-konya/items/e3630046774ac1fbd346）
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
