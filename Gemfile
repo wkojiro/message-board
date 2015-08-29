@@ -8,6 +8,8 @@ gem 'sqlite3', group: :development
 # 本番ではpostgressを使用する
 gem 'pg', group: :production
 
+gem 'pry-byebug', group: :development
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 #以下を追加（20150827　http://qiita.com/masamitsu-konya/items/e3630046774ac1fbd346）
