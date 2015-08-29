@@ -10,10 +10,9 @@
      <%= message.body %> <%= message.age %>
       <%= link_to "edit" , edit_message_path(message) ,:class=>"btn btn-default btn-xs" %>
       <%= link_to "destroy" , message , method: :delete,:class=>"btn btn-danger btn-xs", data: { confirm: '削除してもよろしいですか？' } %>
- </div>
-       <% end %>    
-      
     </div>
+    <% end %>    
+  </div>
 
 
 <% #部分テンプレートを読み込んでいる %>
